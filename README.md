@@ -189,21 +189,6 @@ Logic was validated using **S7-PLCSIM** with a watch table (`TestWatch`), forcin
 - **OPC UA / PLC-to-PLC communication** was scoped as an optional stretch goal and not implemented in this version.
 - **Fault timer preset** (`T#15S` in the current build) was lengthened from a more realistic `T#3S` to ease manual watch-table testing — should be reverted to a production-realistic value before any real deployment.
 
----
-
-## 10. Repository Structure
-
-```
-/
-├── README.md                          — this file
-├── docs/
-│   └── screenshots/                   — TIA Portal screenshots of key blocks/screens
-├── src/
-│   └── MetalCuttingLine/               — exported TIA Portal project files
-└── LICENSE                            — (optional) license file
-```
-
----
 
 ## Author's Note
 
